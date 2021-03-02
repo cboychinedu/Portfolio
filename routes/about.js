@@ -8,7 +8,7 @@ const router = express.Router();
 router.get('/', (req, res) =>
 {
     // Getting the full path to the "index.html" file 
-    let fullPath = path.join(rootPath, 'static', 'templates', 'index.html'); 
+    let fullPath = path.join(rootPath, 'static', 'templates', 'about.html'); 
 
     // Sending the index page "index.html" 
     console.log(fullPath); 

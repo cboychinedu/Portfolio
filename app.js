@@ -11,7 +11,7 @@ let rootPath = path.join(__dirname);
 module.exports.rootPath = rootPath; 
 
 // Importing the required routes 
-const home = require('./routes/index.js'); 
+const about = require('./routes/about.js'); 
 
 // Building the express application 
 const app = express(); 
@@ -34,7 +34,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan('tiny')); 
 
 // Configuring the routes 
-app.use('/', home); 
+app.use('/about', about); 
 
 // Setting the PORT and HOST connections 
 const PORT = process.env.PORT || 3000; 
