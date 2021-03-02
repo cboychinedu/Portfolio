@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio about Mbonu Chinedum",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cboychinedu/Portfolio.git"
+  },
+  "author": "Mbonu Chinedum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cboychinedu/Portfolio/issues"
+  },
+  "homepage": "https://github.com/cboychinedu/Portfolio#readme"
+}
