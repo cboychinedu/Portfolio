@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/cboychinedu/Portfolio/issues"
   },
-  "homepage": "https://github.com/cboychinedu/Portfolio#readme"
+  "homepage": "https://github.com/cboychinedu/Portfolio#readme",
+  "dependencies": {
+    "config": "^3.3.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
 }

@@ -1,0 +1,151 @@
+body {
+    margin: 0 auto; 
+    padding: 0 auto; 
+    background-color: rgb(243, 243, 243); 
+    color: black; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    outline: none; 
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    padding-bottom: 15px; 
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: rgb(85, 132, 85); 
+}
+
+ul li {
+    list-style: none;
+}
+
+.about-division a {
+    color: white; 
+}
+
+.about-division a:hover {
+    color: rgb(85, 132, 85); 
+}
+
+.navigator {
+    background-color: rgb(232, 232, 232); 
+    color: black; 
+    padding-top: 19px; 
+    padding-bottom: 35px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    border: none; 
+    outline: none; 
+    box-shadow: 0px -4px 6px 6px
+}
+
+.navigator-left {
+    float: left; 
+    text-decoration: none;
+    margin-left: 30px; 
+    margin-right: 2px; 
+}
+
+.navigator-right {
+    margin-right: 30px; 
+    float: right; 
+    text-decoration: none;
+}
+
+.blog {
+    margin-left: 25px; 
+}
+
+.about-division {
+    margin-top: 25px; 
+    text-align: center;
+    display: grid; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    justify-content: center;
+    align-items: center;
+    background-color: black; 
+    color: white; 
+    padding-bottom: 140px; 
+    
+}
+
+.footer {
+    color: black; 
+      
+}
+
+.footer-div {
+    margin-top: -50px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.web_developer {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 51px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.content_creator{
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 34px;
+    padding-top: 20px;
+    padding-bottom: 51px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.ui_ux {
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 51px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 6px;
+    background-color: white;
+    
+}
+
+.last-privacy-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    background-color: black; 
+    color: white; 
+    margin-top: 200px;
+    padding-top: 20px;  
+    padding-bottom: 4px; 
+
+}
+
+.last-privacy-footer a {
+    margin-left: 11px; 
+    margin-right: 11px; 
+    font-size: 13.8px;
+    color: rgb(168, 168, 168); 
+}
+
+.last-privacy-footer a:hover {
+    color: rgb(80 233 127 / 88%); 
+}
