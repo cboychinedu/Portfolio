@@ -17,12 +17,12 @@ body {
     box-shadow: 36px 46px 37px 12px;
     border-top-left-radius: 42px;
     border-bottom-left-radius: 295px;
-    transition: box-shadow 3s ease-in-out;
+    transition: box-shadow 4s ease-in-out;
 }
 
 .user_image:hover, 
 .user_image:focus {
-    transition: box-shadow 3s;
+    transition: box-shadow 4s;
     box-shadow: -43px -17px 32px 21px
 }
 
