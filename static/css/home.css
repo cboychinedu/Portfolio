@@ -5,17 +5,27 @@ body {
 .user_image {
     float: left;
     border: none;
-    height: 379px;
+    color: #252222; 
+    height: 436px;
     padding-right: 0px;
     width: 449px;
     border-radius: 121px;
     margin-right: 101px;
-    margin-top: 6px;
+    margin-top: -34px;
     margin-bottom: 26px;
-    margin-left: 92px;
-    box-shadow: -4px 6px 35px 4px;
+    margin-left: 50px;
+    box-shadow: 82px 82px 97px 4px;  
     border-bottom-right-radius: 135px;
+    transition: box-shadow 3s ease-in-out;
 }
+
+.user_image:hover, 
+.user_image:focus {
+    transition: box-shadow 3s;
+    box-shadow: -43px -17px 32px 21px
+}
+
+
 
 .home_div {
 
@@ -28,13 +38,18 @@ body {
 
 .second_header {
     text-align: center;
-    font-size: 37px;
+    font-size: 39px;
     font-weight: 600;
     margin-right: 0px;
     margin-left: 25px;
     margin-top: 67px;
     margin-bottom: 0px;
     padding-left: 35px;
+}
+
+.second_header b:hover, 
+.second_header b:focus {
+    text-decoration: underline;
 }
 
 .second_header_para {
@@ -44,8 +59,8 @@ body {
     margin-top: -69px;
     margin-bottom: 26px;
     margin-right: 0px;
-    margin-left: 25px;
-    padding-left: 35px;
+    margin-left: 0px;
+    padding-left: 0px;
 
 }
 
