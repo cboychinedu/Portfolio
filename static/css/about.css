@@ -52,6 +52,7 @@ ul li {
     text-decoration: none;
     margin-left: 30px; 
     margin-right: 2px; 
+    
 }
 
 .navigator-right {
@@ -188,4 +189,11 @@ ul li {
     border-top-left-radius: 11px;
     border-bottom-right-radius: 12px;
     box-shadow: 14px 9px 10px -5px; 
+    transition: box-shadow 3s ease-in-out;
 }
+.home_icon_image:hover, 
+.home_icon_image:focus {
+    transition: box-shadow 3s;
+    box-shadow: -8px -3px 14px -4px;
+}
+
