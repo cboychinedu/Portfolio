@@ -14,7 +14,7 @@ body {
     margin-top: -34px;
     margin-bottom: 26px;
     margin-left: 50px;
-    box-shadow: 36px 46px 37px 12px;
+    box-shadow: 38px 48px 61px -6px; 
     border-top-left-radius: 42px;
     border-bottom-left-radius: 295px;
     transition: box-shadow 4s ease-in-out;
@@ -29,12 +29,11 @@ body {
 
 
 .home_div {
-
     margin-left: 20px;
     padding-left: 20px;
     padding-top: 29px;
     padding-right: 28px;
-    padding-bottom: 153px; 
+    padding-bottom: 201px; 
 }
 
 .second_header {
@@ -69,6 +68,22 @@ body {
 
     font-size: 32px; 
     font-weight: bold;
+}
+
+.last-privacy-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    background-color: #252222;
+    color: white;
+    margin-top: -81px;
+    padding-top: 29px;
+    border-bottom-left-radius: 55px;
+    border-top-right-radius: 62px;
+    border-top-left-radius: 3px;
+    padding-bottom: 4px;
 }
 
 
