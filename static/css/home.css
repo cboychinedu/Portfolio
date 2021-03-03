@@ -5,7 +5,7 @@ body {
 .user_image {
     float: left;
     border: none;
-    color: #252222; 
+    color: #252222;
     height: 436px;
     padding-right: 0px;
     width: 449px;
@@ -14,8 +14,9 @@ body {
     margin-top: -34px;
     margin-bottom: 26px;
     margin-left: 50px;
-    box-shadow: 82px 82px 97px 4px;  
-    border-bottom-right-radius: 135px;
+    box-shadow: 36px 46px 37px 12px;
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 295px;
     transition: box-shadow 3s ease-in-out;
 }
 
